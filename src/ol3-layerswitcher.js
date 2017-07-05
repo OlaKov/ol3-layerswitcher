@@ -198,12 +198,9 @@
             };
             li.appendChild(input);
 
-            label.htmlFor = lyrId;
-            label.innerHTML = lyrTitle;
-            li.appendChild(label);
-
             li.className = 'group';
             label.innerHTML = lyrTitle;
+            label.htmlFor = lyrId;
             li.appendChild(label);
             var ul = document.createElement('ul');
             li.appendChild(ul);
